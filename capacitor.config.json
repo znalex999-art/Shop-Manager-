@@ -1,0 +1,13 @@
+{
+  "appId": "com.shopmanager.app",
+  "appName": "Shop Manager",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
