@@ -1,0 +1,22 @@
+{
+  "name": "shop-manager-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shop Manager — native Android app (Capacitor) with real camera, Android Photo Picker, and offline ML Kit QR/barcode scanning.",
+  "scripts": {
+    "sync": "npx cap sync android",
+    "open:android": "npx cap open android",
+    "build:debug": "cd android && ./gradlew assembleDebug",
+    "build:release": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.1",
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/camera": "^8.2.1",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor-mlkit/barcode-scanning": "^8.1.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.1"
+  }
+}
